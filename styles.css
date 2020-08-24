@@ -208,3 +208,67 @@ footer a:hover {
   text-decoration: none;
   color: #fff;
 }
+
+@media (max-width: 576px) {
+  :root {
+    --padding-geral: 1.6rem 1rem;
+
+    --titulo-fonte: 700 2.4rem 'Poppins', 'sans-serif';
+  }
+
+  #logo {
+    height: 20px;
+    margin: 0 auto;
+  }
+
+  #navi a {
+    margin: .5rem;
+  }
+
+  #welcome p {
+    font-size: 1.8rem;
+  }
+
+  .destaque {
+    font-size: 1.5rem !important;
+  }
+
+  button {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  #about-texto {
+    width: 90vw;
+  }
+  
+  #guestlist {
+    flex-direction: column;
+  }
+  
+  .guest {
+    width: 100%;
+    margin-bottom: 100px;
+  }
+  
+  #schedule {
+    flex-direction: column;
+  }
+
+  #video {
+    width: 100vw;
+    margin: 2.4rem 0;
+  }
+
+  #navi {
+    display: none;
+  }
+
+  footer {
+    justify-content: center;
+  }
+
+  footer img {
+    display: none;
+  }
+}
