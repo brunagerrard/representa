@@ -15,9 +15,12 @@
   --padding-geral: 2.4rem 7.2rem;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Poppins', 'sans-serif';
-  scroll-behavior: smooth;
 }
 
 header,
