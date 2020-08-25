@@ -23,10 +23,22 @@
 
     gtag('config', 'UA-175825476-2');
   </script>
+
+  <!-- Hotjar Tracking Code for https://representarte.netlify.app/ -->
+  <script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1959431,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+  </script>
 </head>
 <body>
   <header>
-    <img id="logo" src="/imgs/logoalt.png" alt="Logo da Representarte">
+    <img id="logo" src="/imgs/logo.png" alt="Logo da Representarte">
     <nav id="navi">
       <a href="#welcome">home</a>
       <a href="#about">sobre</a>
@@ -36,25 +48,31 @@
   </header>
 
   <section id="welcome">
-    <h1>o show vai continuar?</h1>
-    <p>Novas perspectivas para a produção cultural</p>
-    <p class="destaque">Live – 26/08 – das 16h às 17h</p>
-    <button>faça a sua inscrição</button>
+   <div id="welcome-texto">
+      <h1 id="welcomeh1">o show vai continuar?</h1>
+      <p>Novas perspectivas para a produção cultural</p>
+      <p>Live dia <strong>26/08</strong> das <strong>19h30</strong> às <strong>20h30</strong></p>
+      <button>faça a sua inscrição</button>
+   </div>
+   <img id="welcome-img" src="/imgs/home-img.svg" alt="Duas pessoas numa videoconferência.">
+   <img id="welcome-bg" src="/imgs/home-bg.svg" alt="Background pattern">
   </section>
 
   <section id="about">
+    <img id="about-img" src="/imgs/about-img.svg" alt="Duas pessoas numa videoconferência.">
     <div id="about-texto">
-      <h2>somos a Representarte</h2>
+      <h2>somos a <span class="roxinho">Representarte</span></h2>
       <p>Acreditamos que a cultura é uma necessidade, não um luxo. Apostamos no poder da arte de se reinventar e traduzir os tempos em que vivemos. Apoiamos todas as formas de manifestações artísticas. Queremos ser protagonistas em levantar novas questões e encontrar formas inovadoras de se levar cultura para uma parcela cada vez maior da população.</p>
     </div>
+    <img id="about-bg" src="/imgs/about-bg.svg" alt="Background pattern">
   </section>
 
   <section id="guests">
-    <h2>convidados</h2>
+    <h2>convidadas</h2>
     <div id="guestlist">
       <div class="guest">
         <div class="guest-texto">
-          <img class="guest-foto" src="/imgs/guests/">
+          <img class="guest-foto" src="/imgs/guests/amanda.jpg">
           <h3 class="guest-nome">amanda mouraf</h3>
           <p class="guest-bio">Atriz e produtora audiovisual. Participou de projetos como: “A menina dos meus olhos”, “Ladrões de Bicicleta”. Esteve na equipe de produção do curta “Espaços do Silêncio”, da Sumaúma Produções, feito totalmente à distância durante o período de quarentena.</p>
         </div>
@@ -80,12 +98,12 @@
 
       <div class="guest">
        <div class="guest-texto">
-          <img class="guest-foto" src="/imgs/guests/larissa.jpg">
-          <h3 class="guest-nome">larissa lia</h3>
-          <p class="guest-bio">Atriz com mais de 20 anos de carreira e participação em diversos filmes publicitários; espetáculos musicais, como “A Branca de Neve e os Sete Anões” e “O Mágico de Oz” e a série “O Negócio”, da HBO.</p>
+          <img class="guest-foto" src="/imgs/guests/daniel.jpg">
+          <h3 class="guest-nome">daniel cabral</h3>
+          <p class="guest-bio">Ator, cantor e bailarino com participação em diversos filmes e espetáculos musicais, como “Crazy For You”, “Zorro, O Musical” e “Raia 30”.</p>
        </div>
         <div class="guest-redes">
-          <a href="https://www.instagram.com/andymouraf/" target="_blank">
+          <a href="https://www.instagram.com/dan_cabral/" target="_blank">
             <i class="fab fa-instagram"></i>
           </a>
         </div>
@@ -93,26 +111,50 @@
     </div>
   </section>
 
-  <section id="live">
-    <h2>em breve</h2>
+ <section id="live">
+    <h2 class="roxinho">em breve</h2>
+    <p>Uma nova perspectiva para a produção cultural!</p>
 
-    <div id="contagem">
-      contagem js vai aqui
+    <div id="contagem"><!--Início do contador-->
+        <div class="contador">
+
+            <div class="contaDias">
+              <span id="dias">00</span>
+              DIAS
+            </div>
+
+            <div class="contaHoras">
+              <span id="horas">00</span>
+              HORAS
+            </div>
+            
+            <div class="contaMinutos">
+              <span id="minutos">00</span>
+              MINUTOS
+            </div>
+
+            <div class="contaSegundos">
+              <span id="segundos">00</span>
+              SEGUNDOS
+            </div>
+        </div>
     </div>
+
+    <img id="contagem-bg" src="/imgs/contagem-bg.svg" alt="Background pattern">
   </section>
 
   <section id="schedule">
     <div id="video">
-      video youtube
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/B3ZrWUATVxk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <div id="programa">
-      <h2>programação</h2>
+      <h2>CRONOGRAMA</h2>
       <div id="agenda">
         <ul>
-          <li>00:00 lorem ipsum</li>
-          <li>00:00 lorem ipsum</li>
-          <li>00:00 lorem ipsum</li>
-          <li>00:00 lorem ipsum</li>
+          <li>19h30 às 19h50 | Luana Tanaka</li>
+          <li>19h50 às 20h10 | Amanda Moura</li>
+          <li>20h10 às 20h30 | Daniel Cabral</li>
+          <li>Encerramento</li>
         </ul>
       </div>
     </div>
@@ -121,13 +163,16 @@
   <footer>
     <img id="logo" src="/imgs/logoalt.png" alt="Logo da Representarte">
     <div id="nossos-contatos">
-      <a href="" target="_blank">
-        <i class="fab fa-instagram"></i>
+      <a href="mailto:representarteoficial@gmail.com" target="_blank">
+        <i class="fas fa-envelope-open-text"></i>
       </a>
-      <a href="" target="_blank">
+      <a href="https://www.facebook.com/representarteoficial/" target="_blank">
         <i class="fab fa-facebook-f"></i>
       </a>
-      <a href="" target="_blank">
+      <a href="https://www.linkedin.com/company/representarteoficial/" target="_blank">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://www.youtube.com/watch?v=B3ZrWUATVxk&feature=youtu.be" target="_blank">
         <i class="fab fa-youtube"></i>
       </a>
     </div>
