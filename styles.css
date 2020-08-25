@@ -175,6 +175,80 @@ section {
   height: 150px;
 }
 
+/*CSS do contador*/
+#contagem{
+  width: 100%;
+  position: flexe;
+  margin: auto;
+  text-align: center;
+}
+
+.contaDias{
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  border: 2px solid #9900FF;
+  font-size: 12px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.contaDias span{
+  display: block;
+  font-size: 26px;
+  margin-top: 14px;
+}
+
+
+.contaHoras{
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  border: 2px solid #9900FF;
+  font-size: 12px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.contaHoras span{
+  display: block;
+  font-size: 26px;
+  margin-top: 14px;
+}
+
+.contaMinutos{
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  border: 2px solid #9900FF;
+  font-size: 12px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.contaMinutos span{
+  display: block;
+  font-size: 26px;
+  margin-top: 14px;
+}
+
+.contaSegundos{
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  border: 2px solid #9900FF;
+  font-size: 12px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.contaSegundos span{
+  display: block;
+  font-size: 26px;
+  margin-top: 14px;
+}
+/*Fim CSS do contador*/
+
 #live {
   flex-direction: column;
 }
