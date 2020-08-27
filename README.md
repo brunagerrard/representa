@@ -8,3 +8,16 @@ Página responsiva de divulgação para uma live promovida pela empresa fictíci
 - Alyne Ayumi + Helena Chaves + Thais Boeira // designers UI/UX
 - Tainá Santos + Bruno Barauna // salespeople
 - Gustavo Trindade + Mariana Pondioli + Henrique Estevam // growth
+
+## Conheça nossa página!
+
+Visão geral:
+
+
+![Gif da Landing Page](https://github.com/brunagerrard/representa/blob/master/imgs/representArte.gif)
+
+
+Contador em JavaScript:
+
+
+![Gif contador](https://github.com/brunagerrard/representa/blob/master/imgs/contador.gif)
