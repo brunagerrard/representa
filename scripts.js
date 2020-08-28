@@ -1,5 +1,5 @@
 //CONTADOR REGRESSIVO
-// var contador = new Date("aug 28,2020 19:30:00").getTime(); //define a data do evento, mudar aqui caso precise
+// var contador = new Date("aug 26,2020 19:30:00").getTime(); //define a data do evento, mudar aqui caso precise
 
 // var x = setInterval(function() {
 //     var dataAtual = new Date().getTime();
