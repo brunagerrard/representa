@@ -239,7 +239,7 @@ section {
   justify-content: center;
 }
 
-/*CSS do contador*/
+/*CSS do contador
 #contagem{
   width: 70vw;
   margin: 2.4rem auto;
@@ -316,7 +316,8 @@ section {
   right: 0;
   z-index: -1;
 }
-/*Fim CSS do contador*/
+
+Fim CSS do contador*/
 
 
 #schedule {
